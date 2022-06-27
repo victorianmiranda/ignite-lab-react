@@ -3,8 +3,6 @@ import { BrowserRouter } from 'react-router-dom'
 import { client } from './lib/apollo'
 import { Router } from './Router'
 
-import "./styles/global.css"
-
 function App() {
   return (
     <ApolloProvider client={client}>
